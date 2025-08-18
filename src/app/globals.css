@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import "tailwindcss";
 
 body {
@@ -21,5 +22,29 @@ body {
 
   --color-primary-light:#f8f8f8;
   --color-primary-dark: #191919;
+  --color-pinkish-100: #edb5f5;
+  --color-pinkish-200: #eb7ad4;
+  --color-pinkish-300: #e86ed0;
+  --color-blueish-100: #e6f8f9;
+  --color-blueish-200: #b1e8ed;
 
+  --font-sans: "Open Sans", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+  
+ 
+}
+
+/* body {
+  background-color: var(--color-primary-light);
+  color: var(--color-primary-dark);
+} */
+
+body {
+  background-color: var(--color-primary-light);
+  color: var(--color-primary-dark);
+}
+
+.dark body {
+  background-color: var(--color-primary-dark);
+  color: var(--color-primary-light);
 }
