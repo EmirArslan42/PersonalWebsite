@@ -80,4 +80,12 @@ plugnins: [
   color: var(--color-pinkish-200);
   
 }
-
+.dark .projectsLink:hover svg {
+  color: var(--color-text-gray-200);
+}
+.dark .projectsLink {
+  color: var(--color-text-gray-300);
+}
+.dark .projectCard {
+  padding: 8px;
+}

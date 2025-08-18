@@ -1,0 +1,23 @@
+[
+    {
+        "source":"https://fake-tweet-generator-kohl.vercel.app/",
+        "title":"Fake Tweet Generator",
+        "description": "A web app that generates realistic fake tweet images by customizing username, name, tweet text, like count, and retweet count.",
+        "image":"/images/fake-tweet-generator.png",
+        "tags":["NextJS","ReactJS","Tailwindcss"]
+    },
+    {
+        "source":"https://spend-money-iota.vercel.app/",
+        "title":"Spend Money",
+        "description":"Users spend a virtual budget on various items, simulating fun and educational money management app.", 
+        "image":"/images/spend-money.png",
+        "tags":["NextJS","ReactJS","Tailwindcss"]
+    },
+    {
+        "source":"https://youtube.com",
+        "title":"Brand Colors",
+        "description":"A platform for sharing and viewing videos.", 
+        "image":"https://yt3.googleusercontent.com/HsWpgppj89BvyNnW0s-i9JWzLiMpZJDHX2imMWfPqFazMDslJo4IDeqWvXvx75PGX6-lTRo_Sqs=s900-c-k-c0x00ffffff-no-rj",
+        "tags":["NextJS","ReactJS","Tailwindcss"]
+    }
+]

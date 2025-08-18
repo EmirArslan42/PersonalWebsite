@@ -1,7 +1,14 @@
+"use client";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "../../components/Header";
 import { ThemeProvider as NextThemesProvider } from "next-themes";
+import NextNProgress from "nextjs-progressbar";
+import NextTopLoader from "nextjs-toploader";
+// export const metadata = {
+//   title: "Portfolio ",
+//   description: "Welcome to my personal portfolio website",
+// };
 
 export default function RootLayout({ title, description, children }) {
   const ExampleComponent = () => {
@@ -46,14 +53,15 @@ export default function RootLayout({ title, description, children }) {
           data-y_margin="18"
         ></script>
       </head>
-      <NextThemesProvider attribute="class" defaultTheme="dark">
-        <body className="min-h-screen  antialiased font-montserrat px-3 relative z-10 overflow-hidden  ">
+      <body className="min-h-screen  antialiased font-montserrat px-3 relative z-10  ">
+        <NextThemesProvider attribute="class" defaultTheme="dark">
           <div className="w-full ">
             <Header />
-            {children}
+            <NextTopLoader height={6} initialPosition={0.3} color="#5F7FFF" />
+            <main>{children}</main>
           </div>
-        </body>
-      </NextThemesProvider>
+        </NextThemesProvider>
+      </body>
     </html>
   );
 }
