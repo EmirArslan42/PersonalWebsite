@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 body {
   /* background: var(--background); */
@@ -30,21 +31,53 @@ body {
 
   --font-sans: "Open Sans", sans-serif;
   --font-montserrat: "Montserrat", sans-serif;
-  
- 
+
+--typography:(theme) => ({
+    DEFAULT:{
+      css:{
+        color:"#333",
+        a:{
+          color:"#e86ed0",
+          "&:hover":{
+            color:"#edb5f5",
+        }
+      }
+    }  
+},
+dark:{
+  css:{
+    color:theme("colors.gray.100"),
+    a:{
+      color:theme("colors.pink.400"),
+      "&:hover":{
+        color:theme("colors.pink.300"),
+      }
+    }
+  }
+}
+  })
+plugnins: [
+    require('@tailwindcss/typography'),
+  ],
+
+
 }
 
-/* body {
-  background-color: var(--color-primary-light);
-  color: var(--color-primary-dark);
-} */
 
-body {
-  background-color: var(--color-primary-light);
+  body{
+      background-color: var(--color-white);
   color: var(--color-primary-dark);
-}
-
+  }
 .dark body {
-  background-color: var(--color-primary-dark);
+  background-color: var(--color-gray-900);
   color: var(--color-primary-light);
+} 
+
+.dark .icon {
+  color:var(--color-gray-100)
 }
+.dark .icon:hover {
+  color: var(--color-pinkish-200);
+  
+}
+
