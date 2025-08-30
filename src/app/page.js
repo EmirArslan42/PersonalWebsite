@@ -64,7 +64,7 @@ export default function Home() {
               Emir Arslan
             </h1>
             <div className="mt-5 md:text-2xl  font-normal text-transparent bg-gradient-to-r from-pink-500 via-indigo-400 to-purple-700 bg-clip-text md:mt-3">
-              <div className="my-4">
+              <div className="md:my-4 my-1">
                 <TypeAnimationComponent />
               </div>
             </div>
