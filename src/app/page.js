@@ -64,7 +64,9 @@ export default function Home() {
               Emir Arslan
             </h1>
             <div className="mt-5 md:text-2xl  font-normal text-transparent bg-gradient-to-r from-pink-500 via-indigo-400 to-purple-700 bg-clip-text md:mt-3">
-              <TypeAnimationComponent />
+              <div className="my-4">
+                <TypeAnimationComponent />
+              </div>
             </div>
             {/* Social Accounts */}
             <div className="flex items-center mt-8 space-x-6 md:mt-4 ">
@@ -101,7 +103,7 @@ export default function Home() {
           </div>
 
           {/* Code Area */}
-          <article className="mt-5 md:mt-7 prose md:prose-lg dark:prose-invert text-white">
+          <article className="mt-8 md:mt-16 prose md:prose-lg dark:prose-invert text-white">
             <pre className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg overflow-x-auto">
               <code className="language-js">
                 {`// Portfolio.js`}
@@ -112,36 +114,36 @@ export default function Home() {
 <span>// <span className="text-blue-400">Todo:</span> You can drag these balloons I'm really in love with them 🎈🎈</span>
 
               </code>
-              <div className="flex items-center space-x-4 my-7">
+              <div className="flex items-center space-x-4 my-10">
                 <img
                   src="/images/this_is_me.jpg"
                   alt="Me"
                   className="w-16 h-16 rounded-full"
                 />
                 <div>
-                  <p className="text-sm ">
-                    {">"} const techWeb2 = ["Reactjs", "Nextjs", "Graphql",
-                    "Nodejs"];
+                  <p className="text-xl ">
+                    {">"} const frontend = ["Reactjs", "Nextjs", "TailwindCSS",
+                    "Bootstrap"];
                   </p>
                   <br />
-                  <p className="text-sm">
-                    {">"} const techWeb3 = ["Solidity", "Web3.js", "Ethers.js"];
+                  <p className="text-xl">
+                    {">"} const backend = ["Node.js", "Express.js", "MongoDB", "MySQL"];
                   </p>
                 </div>
               </div>
                <div className="flex items-center space-x-8 mt-7">
-                    <Link className="transition duration-300 text-blue-400 hover:text-green-300" href="/projects">
+                    <Link className="text-2xl transition duration-300 text-blue-400 hover:text-green-300" href="/projects">
                       {"> "}Projects
                     </Link>
 
-                    <p
+                    {/* <p
                       href="https://www.youtube.com/channel/UCfGXEo2uCkVqcIqkIaFNGcA"
                       target={"_blank"}
                       rel="noopener noreferrer"
                       className="transition duration-300 text-blue-400 hover:text-green-300 cursor-pointer"
                     >
                      {"> "}Youtube
-                    </p>
+                    </p> */}
                   </div>
             </pre>
           </article>
