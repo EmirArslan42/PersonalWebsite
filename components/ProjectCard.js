@@ -22,7 +22,7 @@ const ProjectCard = ({ projectInformation }) => {
             </h2>
             <p className="text-md dark:text-white">{projectInformation.description}</p>
 
-            <div className="flex items-center space-x-4">
+            <div className="grid  grid-cols-3 gap-3">
               {projectInformation.tags.map((tag, key) => (
                 <span
                   key={key}

@@ -12,14 +12,14 @@ export const metadata = {
 const page = () => {
   return (
     <div className=''>
-        <section className='h-full max-w-5xl mx-auto pt-4 md:pt-16 mb-16 '>
+        <section className='h-full mx-auto max-w-[1750px] pt-4 md:pt-16 mb-16 '>
             <Link href="/" className='projectsLink flex items-center space-x-4 font-semibold pb-6 text-gray-600 hover:text-gray-800  transition-colors duration-300'>
                 <ArrowLeft className="w-8 h-8 mr-2" />
                 <span className=''>Back to Home</span>
             </Link>
 
             {/* Projects */}
-            <div className='grid grid-cols-1 md:grid-cols-2 md:gap-8 gap-6'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 md:gap-8 gap-6'>
                 {projects.map((project, index) => (
                     <ProjectCard key={index} projectInformation={project} />
                 ))}

@@ -14,10 +14,38 @@
         "tags":["NextJS","ReactJS","Tailwindcss"]
     },
     {
-        "source":"https://youtube.com",
-        "title":"Brand Colors",
-        "description":"A platform for sharing and viewing videos.", 
-        "image":"https://yt3.googleusercontent.com/HsWpgppj89BvyNnW0s-i9JWzLiMpZJDHX2imMWfPqFazMDslJo4IDeqWvXvx75PGX6-lTRo_Sqs=s900-c-k-c0x00ffffff-no-rj",
+        "source":"https://sticky-notes-rust-nu.vercel.app/",
+        "title":"Sticky Notes",
+        "description":"Users can click on the board to leave hidden or public comments, simulating real sticky notes in a digital way..", 
+        "image":"/images/sticky-notes.png",
         "tags":["NextJS","ReactJS","Tailwindcss"]
+    },
+    {
+        "source":"https://kanban-notepad.vercel.app/",
+        "title":"Regular Show Task Board",
+        "description":"In the Regular Show Task Board ,Users can assign missions to characters from the show, manage tasks, and interact with a colorful digital board.", 
+        "image":"/images/kanban-notepad.png",
+        "tags":["NextJS","ReactJS","Tailwindcss"]
+    },
+    {
+        "source":"https://code-editor-lemon-ten.vercel.app/",
+        "title":"Code Editor",
+        "description":"This is a simple Code Editor project where users can write HTML, CSS, and JavaScript and instantly see the output in real-time.", 
+        "image":"/images/code-editor.png",
+        "tags":["NextJS","ReactJS","Tailwindcss"]
+    },
+    {
+        "source":"https://emir-arslan.vercel.app/",
+        "title":"Personal Website",
+        "description":"This is my personal website where I showcase my work, projects, and skills.", 
+        "image":"/images/personal-website.png",
+        "tags":["NextJS","ReactJS","Tailwindcss"]
+    },
+    {
+        "source":"https://pos-application-frontend.onrender.com/",
+        "title":"Pos Application",
+        "description":"This project is a full-featured POS (Point of Sale) application where products can be added to the cart, purchased, and invoices can be viewed.", 
+        "image":"/images/pos-application.png",
+        "tags":["ReactJS","Tailwindcss","Express.js","MongoDB","Ant-Design"]
     }
 ]

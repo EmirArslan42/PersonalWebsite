@@ -39,20 +39,21 @@ export default function Home() {
   return (
     <div>
       <motion.img
-        whileHover={{ y: -10, rotate: 90, transition: { duration: 0.4 } }}
+        whileHover={{ y: -16, rotate: 360, transition: { duration: 0.9} }}
         drag
         dragConstraints={{ top: 3, left: 3, right: 3, bottom: 3 }}
-        src="/images/ball-1.svg"
+        src="/images/computer2.svg"
         alt="ball-1"
-        className="hidden md:block h-auto absolute top-48 right-10 z-[1] hover:cursor-pointer"
+        className="hidden 2xl:block h-auto absolute top-48 right-10 z-[1] hover:cursor-pointer w-64"
       />
       <motion.img
-        whileHover={{ y: -10, rotate: 90, transition: { duration: 0.4 } }}
+        whileHover={{ y: -10, rotate: 360, transition: { duration: 0.9 } }}
         drag
         dragConstraints={{ top: 3, left: 3, right: 3, bottom: 3 }}
-        src="/images/ball-2.svg"
+        src="/images/computer.svg"
         alt="ball-2"
-        className="hidden md:block h-auto absolute bottom-48 left-10 z-[1] cursor-pointer"
+        className="hidden 2xl:block h-auto absolute 2xl:bottom-24 left-10  z-[1] cursor-pointer w-64"
+        
       />
       <div className="w-full h-full">
         <section className="h-full max-w-5xl mx-auto pt-16 md:pt-8">
@@ -133,7 +134,7 @@ export default function Home() {
               </div>
                <div className="flex items-center space-x-8 mt-7">
                     <Link className="text-2xl transition duration-300 text-blue-400 hover:text-green-300" href="/projects">
-                      {"> "}Projects
+                      {"> "}PROJECTS
                     </Link>
 
                     {/* <p
